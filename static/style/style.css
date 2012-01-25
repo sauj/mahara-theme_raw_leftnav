@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+/**
+ * Mahara: Electronic portfolio, weblog, resume builder and social networking
+ * Copyright (C) 2006-2007 Catalyst IT Ltd (http://www.catalyst.net.nz)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @package    mahara
+ * @subpackage theme/raw_leftnav
+ * @author     ULCC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
+ * @copyright  (C) 2012 ULCC http://www.ulcc.ac.uk
+ */
+ 
+#sub-nav {
+    background-image: none;
+    background-color: #eaeaea;
+}
+
+#sub-nav li {
+    background-image: none;
+}
+
+#sub-nav li.selected {
+    background-image: none;
+}
+
+#sub-nav li a,
+#sub-nav li a:link,
+#sub-nav li a:visited,
+#sub-nav li a:active {
+    background-image: none;
+}
+
+#sub-nav li.selected a,
+#sub-nav li.selected a:link,
+#sub-nav li.selected a:visited,
+#sub-nav li.selected a:active {
+    background-image: none;
+}
+
+#sub-nav-left ul {
+	list-style-type:none;
+	background-color:#eaeaea;
+	padding:5px;
+}
+
+#sub-nav-left li {
+	padding:2px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.main-column-narrow {
+	width:50%;
+}
+
+.main-column-wide {
+	width:70%;
+}
+
+#right-column, #right-column div.sideblock {
+	width: 200px;
+}
+
+#left-column {
+	float:left;
+	min-width: 150px;
+    width: 150px;
+	margin-left: 10px;
+}

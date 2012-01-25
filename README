@@ -1,0 +1,34 @@
+MAhara Raw Left Navigation Theme
+================================
+
+Copyright 2012 Unviersity of London Computer Centre (ULCC)
+
+This is a customisation of the Mahara Raw theme that creates the 2nd row (sub-nav) as a left-hand vertical navigation menu rather than a horizontal menu.
+
+You can use this to as a basis to then add your own branding and colour design.
+
+Usage
+=====
+
+Rename the downloaded folder as 'raw_leftnav' and place in your Mahara themes directory: mahara/theme 
+
+When creating your own theme set the following in the themeconfig.php file:
+
+$theme->displayname   = 'Your theme name';
+$theme->parent = 'raw_leftnav';
+
+You will now have an alternative naivation model
+
+An example can be found at http://mahara.ulcc.ac.uk
+
+Requirements
+============
+
+This is only tested for Mahara 1.4.x and will be updated for future releases. 
+
+
+Support
+=======
+
+We can only offer direct support as a contracted service. Please visit our website http://www.ulcc.ac.uk/contact if you would like further information.
+ 
